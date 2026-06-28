@@ -1,4 +1,4 @@
-# 🚀 Ankit Prajapati | Full-Stack Developer Portfolio
+# Full-Stack Developer Portfolio
 
 Welcome to my personal portfolio repository! This portfolio showcases my projects, technical skills, certifications, and achievements as a Computer Science undergraduate passionate about Full-Stack Development and Software Engineering.
 
