@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankit Gola | Software Engineer</title>
+  <meta name="description"
+    content="Portfolio of Ankit Gola, Computer Science Engineering Student & Full Stack Developer." />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <!-- Particles Background Container -->
+  <div id="tsparticles"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav" id="navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Ankit.Gola</a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero d-flex align-items-center min-vh-100">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-lg-7 hero-content order-2 order-lg-1 mt-5 mt-lg-0">
+          <span class="badge premium-badge mb-3">Available for Hire</span>
+          <h1 class="hero-title mb-3">Hi, I'm <span class="gradient-text"> Ankit Gola</span></h1>
+          <h2 class="hero-subtitle mb-4">Computer Science Student | Full Stack Developer | Software Development</h2>
+          <p class="hero-desc mb-5">
+           I am a Computer Science undergraduate passionate about Full Stack Development, Backend Engineering, and Software Development. I have hands-on experience with JavaScript, Node.js, Express.js, React.js, and Spring Boot, along with building REST APIs and database-driven applications. I enjoy solving coding problems, developing real-world projects, and continuously learning modern technologies.
+          </p>
+          <div class="hero-buttons d-flex gap-3 flex-wrap">
+            <a href="#projects" class="btn btn-primary premium-btn">View Projects</a>
+            <a href="%BASE_URL%AnkitGola_Resume.pdf" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline premium-btn-outline">Download Resume</a>
+            <a href="https://wa.me/918449117348" target="_blank" rel="noopener noreferrer" class="btn btn-ghost whatsapp-btn">Contact Me <i class="fa-brands fa-whatsapp ms-2"></i></a>
+          </div>
+          <div class="social-links mt-5">
+            <a href="https://github.com/AnkitGola-7078" target="_blank" class="social-icon"><i
+                class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ankitgola1304/" target="_blank" class="social-icon"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://leetcode.com/u/ankitgola_cs23/" target="_blank" class="social-icon"><i
+                class="fa-solid fa-code"></i></a>
+            <a href="mailto:ankitprajapati3785@gmail.com" class="social-icon">
+               <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/918449117348" target="_blank" class="social-icon whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-image-col">
+          <div class="hero-image-wrapper">
+            <!-- Using the generated placeholder or a generic professional silhouette if needed. For now using the local AI image we'll assume is copied or replaced later, or a generic placeholder URL -->
+            <img src="/profile.jpg" alt="Ankit Gola" class="hero-img img-fluid" id="profile-img">
+            <div class="glow-effect"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section py-5 glass-section">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-6 col-md-3 stat-item">
+          <h3 class="stat-number gradient-text"><span class="counter" data-target="280">0</span>+</h3>
+          <p class="stat-label">LeetCode Problems Solved</p>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <h3 class="stat-number gradient-text"><span class="counter" data-target="25">0</span>+</h3>
+          <p class="stat-label">GitHub Repositories</p>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <h3 class="stat-number gradient-text"><span class="counter" data-target="10">0</span>+</h3>
+          <p class="stat-label">Certifications</p>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <h3 class="stat-number gradient-text"><span class="counter" data-target="2">0</span>+</h3>
+          <p class="stat-label">Major Projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about py-6">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 about-text">
+          <p class="lead text-light mb-4">I am a Computer Science student at GLA University.</p>
+          <p class="text-muted">I enjoy building web applications, learning new technologies, and solving coding problems.</p>
+          <p class="text-muted">My interests include Full Stack Development, Backend Development, Machine Learning, and Software Engineering.</p>
+          <p class="text-muted mb-5">Currently, I am working on real-world projects and improving my problem-solving skills through continuous learning.</p>
+
+          <div class="education-card glass-card p-4">
+            <h4 class="mb-3"><i class="fa-solid fa-graduation-cap text-primary me-2"></i> Education</h4>
+            <div class="edu-item border-bottom border-secondary pb-3 mb-3">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="mb-0">B.Tech in Computer Science</h5>
+                <span class="badge premium-badge">2023 – 2027</span>
+              </div>
+              <p class="text-primary mb-1">GLA University, Mathura</p>
+            </div>
+            <div class="edu-item border-bottom border-secondary pb-3 mb-3">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="mb-0">Class XII</h5>
+                <span class="badge premium-badge">2023</span>
+              </div>
+              <p class="text-primary mb-0">O.V.M Senior Secondary School</p>
+            </div>
+            <div class="edu-item">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="mb-0">Class X</h5>
+                <span class="badge premium-badge">2021</span>
+              </div>
+              <p class="text-primary mb-0">O.V.M Senior Secondary School</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
+          <div class="services-card glass-card p-4">
+            <h4 class="mb-4 text-center">Services & Focus</h4>
+            <ul class="list-unstyled service-list">
+              <li><i class="fa-solid fa-check text-primary me-3"></i> Full Stack Development</li>
+              <li><i class="fa-solid fa-check text-primary me-3"></i> Frontend Development</li>
+              <li><i class="fa-solid fa-check text-primary me-3"></i> Backend Development</li>
+              <li><i class="fa-solid fa-check text-primary me-3"></i> REST API Development</li>
+              <li><i class="fa-solid fa-check text-primary me-3"></i> AI & Machine Learning</li>
+              <li><i class="fa-solid fa-check text-primary me-3"></i> Software Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills py-6 glass-section">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-card glass-card text-center p-4 h-100">
+            <div class="skill-icon mb-3"><i class="fa-solid fa-code"></i></div>
+            <h4>Languages</h4>
+            <p class="text-muted mt-3">Java, Python, C, JavaScript, SQL</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-card glass-card text-center p-4 h-100">
+            <div class="skill-icon mb-3"><i class="fa-brands fa-react"></i></div>
+            <h4>Frontend</h4>
+            <p class="text-muted mt-3">HTML5, CSS3, Bootstrap, React, Responsive Design</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-card glass-card text-center p-4 h-100">
+            <div class="skill-icon mb-3"><i class="fa-solid fa-server"></i></div>
+            <h4>Backend</h4>
+            <p class="text-muted mt-3">Node.js, Express.js, Spring Boot, REST APIs, MongoDB, MySQL</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-card glass-card text-center p-4 h-100">
+            <div class="skill-icon mb-3"><i class="fa-brands fa-python"></i></div>
+            <h4>AI & Machine Learning</h4>
+            <p class="text-muted mt-3">Python, Scikit-learn, classification, regression</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects py-6">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="row g-5">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card glass-card overflow-hidden h-100">
+            <div class="project-img-container">
+              <img src="/project-images/atm.png" alt="Bank Management System" class="img-fluid project-img">
+            </div>
+            <div class="project-content p-4">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h3 class="mb-0 h4">Bank Management System</h3>
+                <a href="https://github.com/AnkitGola-7078/BANK-MANAGEMENT-SYSTEM" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fs-4"></i></a>
+              </div>
+              <p class="text-muted mb-4 small">A comprehensive bank management system with features for account management, transaction processing, and customer relationship management.</p>
+              <div class="tech-stack d-flex flex-wrap gap-2 mb-4">
+                <span class="tech-badge">Core Java</span>
+                <span class="tech-badge">Data Structures</span>
+                <span class="tech-badge">Java Swing</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">JDBC</span>
+              </div>
+              <div class="d-flex flex-column gap-2">
+                <a href="https://github.com/AnkitGola-7078/BANK-MANAGEMENT-SYSTEM" class="btn btn-outline premium-btn-outline w-100 btn-sm" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                <a href="https://www.linkedin.com/posts/ankitgola1304_java-javaprogramming-swing-ugcPost-7476255883312775168-u9cj/?utm_source=share&utm_medium=member_android&rcm=ACoAAFB_qcMBTYa1bMlBZ9fsSLBiEedFnYrMaP8" class="btn btn-primary premium-btn w-100 btn-sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card glass-card overflow-hidden h-100">
+            <div class="project-img-container">
+              <img src="/project-images/retail-billing-software.png" alt="Retail Billing Software" class="img-fluid project-img">
+            </div>
+
+            <div class="project-content p-4">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h3 class="mb-0 h4">Retail Billing Software</h3>
+
+                <a href="https://github.com/AnkitGola-7078/Retail-Billing-Software"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fa-brands fa-github fs-4"></i>
+                </a>
+              </div>
+
+              <p class="text-muted mb-4 small">
+                Developed a full-stack POS application with billing, inventory management,
+                JWT authentication, role-based access control, and secure REST APIs.
+                Integrated MySQL, MongoDB, and AWS S3 for scalable data and file storage.
+              </p>
+
+              <div class="tech-stack d-flex flex-wrap gap-2 mb-4">
+                <span class="tech-badge">React.js</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express.js</span>
+                <span class="tech-badge">Spring Boot</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">AWS S3</span>
+              </div>
+
+              <div class="d-flex flex-column gap-2">
+                <a href="https://github.com/AnkitGola-7078/Retail-Billing-Software"
+                  class="btn btn-outline premium-btn-outline w-100 btn-sm"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  GitHub Repository
+                </a>
+
+                <a href="https://www.linkedin.com/posts/ankitgola1304_fullstackdevelopment-springboot-reactjs-activity-7422318021106401283-FGFC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFB_qcMBTYa1bMlBZ9fsSLBiEedFnYrMaP8"
+                  class="btn btn-primary premium-btn w-100 btn-sm"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card glass-card overflow-hidden h-100">
+            <div class="project-img-container">
+              <img src="/project-images/portfolio-website.png" alt="Portfolio Website" class="img-fluid project-img">
+            </div>
+            <div class="project-content p-4">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h3 class="mb-0 h4">Portfolio Website</h3>
+                <a href="https://github.com/varshney654/portfolio" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fs-4"></i></a>
+              </div>
+              <p class="text-muted mb-4 small">Personal portfolio website showcasing projects, certifications, skills and achievements.</p>
+              <div class="tech-stack d-flex flex-wrap gap-2 mb-4">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">React.js</span>
+              </div>
+              <div class="d-flex flex-column gap-2">
+                <a href="https://github.com/varshney654/portfolio" class="btn btn-outline premium-btn-outline w-100 btn-sm" target="_blank" rel="noopener noreferrer">Portfolio Repository</a>
+                <a href="https://varshney654.github.io/portfolio/" class="btn btn-primary premium-btn w-100 btn-sm" target="_blank" rel="noopener noreferrer">Portfolio Live Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="certifications py-6 glass-section">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Professional <span class="gradient-text">Certifications</span></h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="row g-4 justify-content-center">
+        <!-- GLA & KVCH -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/fullstackusingjava.png" alt="Full Stack Development with Java" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Participation</span>
+              <h4 class="mb-2">Full Stack Development with Java Course</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Completed Full Stack Development with Java Training by GLA & KVCH.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/FullStackJava.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- Infosys -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/infosys_certification.png" alt="Infosys Certification in Data Structures & Algorithms" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Achievement</span>
+              <h4 class="mb-2">Infosys Certification in Data Structures & Algorithms</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Demonstrated proficiency in core data structures and algorithmic problem solving.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/infosys_certification.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Godaddy -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/godaddy_certification.jpg" alt="Godaddy Certification" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Certification</span>
+              <h4 class="mb-2">Godaddy Certification</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Completed the Godaddy certification program.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/godady_certification.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- ibm -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/data_visualize.png" alt="IBM Data Visualization" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Certification</span>
+              <h4 class="mb-2">IBM Data Visualization</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Completed Data Visualization using Python & IBM tools.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/data_visualize.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- Guidewire Hackathon -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/Guidewire_Hackathon.png" alt="Guidewire Hackathon" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Certification</span>
+              <h4 class="mb-2">Guidewire Hackathon</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Implemented secure integration in Guidewire Hackathon, improving system reliability.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/Guidewire_Hackathon.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- Oracle University -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/AI Fundaments.png" alt="Oracle University" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Certification</span>
+              <h4 class="mb-2">Oracle University</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Completed AI Fundamentals Course by Oracle University.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/AI Fundaments.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- Software Engineering -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/software_nptel.png" alt="NPTEL Software Engineering" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Certification</span>
+              <h4 class="mb-2">Nptel Software Engineering</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Completed Software Engineering Course by NPTEL.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/software_nptel.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- cisco networking -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/cnn.png" alt="Microsoft Foundational C#" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Certification</span>
+              <h4 class="mb-2">Cisco Networking Academy</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Earned Cisco Networking Academy’s Python Essentials 1 credential, demonstrating ability to design, debug, and implement Python solutions with industry‑recognized certification.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/cnn.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Management Information Systems -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/mis.png" alt="Management Information Systems" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Certification</span>
+              <h4 class="mb-2">Management Information Systems</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Completed Management Information Systems certification by Nptel.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/mis.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- gfg -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/gfg_certified.png" alt="GeeksforGeeks Certified" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Certification</span>
+              <h4 class="mb-2">GeeksforGeeks Certified</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Certified by GeeksforGeeks in Git & GitHub.</p>
+              <a href="javascript:void(0)" onclick="openCertificate('./certificates/gfg_certified.pdf', true)" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- LeetCode 50 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/leetcode-50-days.png" alt="LeetCode 50 Days Badge" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Badge</span>
+              <h4 class="mb-2">LeetCode 50 Days Badge</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Awarded for solving coding problems consecutively for 50 days.</p>
+              <a href="%BASE_URL%certificate-images/leetcode-50-days.png" target="_blank" rel="noopener noreferrer" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Badge</a>
+            </div>
+          </div>
+        </div>
+        <!-- LeetCode 100 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-gallery-card glass-card h-100">
+            <div class="cert-img-wrapper" style="overflow: hidden; height: 200px;">
+              <img src="/certificate-images/leetcode-100-days.png" alt="LeetCode 100 Days Badge" class="img-fluid cert-card-img w-100 h-100 object-fit-cover">
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <span class="badge premium-badge mb-3" style="width: fit-content;">Badge</span>
+              <h4 class="mb-2">LeetCode 100 Days Badge</h4>
+              <p class="text-muted small mb-4 flex-grow-1">Awarded for solving coding problems consecutively for 100 days.</p>
+              <a href="%BASE_URL%certificate-images/leetcode-100-days.png" target="_blank" rel="noopener noreferrer" class="btn btn-outline premium-btn-outline btn-sm w-100"><i class="fa-solid fa-eye me-2"></i>View Badge</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume py-6">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">My <span class="gradient-text">Resume</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="glass-card p-4 p-md-5 text-center">
+            <i class="fa-regular fa-file-pdf text-danger mb-4" style="font-size: 5rem;"></i>
+            <h3 class="mb-4">Looking for a detailed breakdown of my experience?</h3>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+              <!-- Using a placeholder href, recruiter can click to view/download -->
+              <a href="%BASE_URL%AnkitGola_Resume.pdf" class="btn btn-primary premium-btn" target="_blank"
+                rel="noopener noreferrer"><i class="fa-solid fa-eye me-2"></i> View Resume</a>
+              <a href="%BASE_URL%AnkitGola_Resume.pdf" class="btn btn-outline premium-btn-outline"
+                download="AnkitGola_Resume.pdf"><i class="fa-solid fa-download me-2"></i> Download PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coding Profiles Section (GitHub & LeetCode) -->
+  <section id="coding-profiles" class="coding-profiles py-6 glass-section">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Coding <span class="gradient-text">Profiles</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- LeetCode Card -->
+        <div class="col-md-6 col-lg-5">
+          <div class="profile-card glass-card p-5 h-100 text-center">
+            <i class="fa-solid fa-code mb-3" style="font-size: 4rem; color: #FFA116;"></i>
+            <h3 class="mb-3">ankitgola_cs23</h3>
+            <ul class="list-unstyled text-muted mb-4 text-start d-inline-block">
+              <li><i class="fa-solid fa-check-circle text-success me-2"></i> 280+ Problems Solved</li>
+              <li><i class="fa-solid fa-medal text-warning me-2"></i> 2 LeetCode Badges</li>
+              <li><i class="fa-solid fa-fire text-danger me-2"></i> Active Coding Journey</li>
+            </ul>
+            <div>
+              <a href="https://leetcode.com/u/ankitgola_cs23/" class="btn btn-outline premium-btn-outline w-100"
+                target="_blank" rel="noopener noreferrer">LeetCode Profile</a>
+            </div>
+          </div>
+        </div>
+        <!-- GitHub Card -->
+        <div class="col-md-6 col-lg-5">
+          <div class="profile-card glass-card p-5 h-100 text-center">
+            <i class="fa-brands fa-github mb-3" style="font-size: 4rem; color: #fff;"></i>
+            <h3 class="mb-3">AnkitGola-7078</h3>
+            <ul class="list-unstyled text-muted mb-4 text-start d-inline-block">
+              <li><i class="fa-solid fa-code-branch text-primary me-2"></i> 25+ Public Repositories</li>
+              <li><i class="fa-solid fa-code-pull-request text-info me-2"></i> Open Source Projects</li>
+              <li><i class="fa-solid fa-star text-warning me-2"></i> Consistent Contributions</li>
+            </ul>
+            <div>
+              <a href="https://github.com/AnkitGola-7078" class="btn btn-outline premium-btn-outline w-100" target="_blank"
+                rel="noopener noreferrer">GitHub Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+ 
+<section id="timeline" class="timeline-section py-6 glass-section">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h2 class="section-title">My <span class="gradient-text">Journey</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card p-4">
+          <span class="badge premium-badge mb-2">2026</span>
+          <h4 class="mb-2">Building Production-Ready Applications</h4>
+          <p class="text-muted mb-0">
+            Developed a full-stack Retail Billing Software (POS System) using React.js, Node.js,
+            Express.js, Spring Boot, MySQL, MongoDB and AWS S3. Focused on scalable architecture,
+            authentication, inventory management and real-world business workflows.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card p-4">
+          <span class="badge premium-badge mb-2">2025</span>
+          <h4 class="mb-2">Industry Exposure & Internships</h4>
+          <p class="text-muted mb-0">
+            Completed Full Stack Development training at KVCH and worked as a Web Development Intern
+            at NeuroNexus Innovations. Built REST APIs, implemented JWT authentication and gained
+            hands-on experience with backend development using Node.js, Express.js and Spring Boot.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card p-4">
+          <span class="badge premium-badge mb-2">2024</span>
+          <h4 class="mb-2">Strengthening Core Computer Science Skills</h4>
+          <p class="text-muted mb-0">
+            Focused on Data Structures & Algorithms, DBMS and Object-Oriented Programming while
+            consistently solving coding challenges and developing problem-solving skills.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card p-4">
+          <span class="badge premium-badge mb-2">2023</span>
+          <h4 class="mb-2">Beginning the Engineering Journey</h4>
+          <p class="text-muted mb-0">
+            Started B.Tech in Computer Science Engineering at GLA University and began exploring
+            programming, software development and modern web technologies.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact py-6">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="text-muted mt-3">Let's start the conversation — drop a hello and let's push forward.</p>
+        <div class="section-line"></div>
+      </div>
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <div class="contact-info glass-card p-5 h-100">
+            <h3 class="mb-4">Contact Information</h3>
+            
+            <div class="d-flex align-items-center mb-4">
+              <div class="contact-icon-wrapper me-4 mb-0"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h5 class="mb-1">Location</h5>
+                <p class="text-muted mb-0">Firozabad, Uttar Pradesh, India</p>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-center mb-4">
+              <div class="contact-icon-wrapper me-4 mb-0"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <h5 class="mb-1">Email</h5>
+                <a href="mailto:ankitprajapati3785@gmail.com" class="text-muted text-decoration-none hover-primary">ankitprajapati3785@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <div class="contact-icon-wrapper me-4 mb-0"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h5 class="mb-1">Phone</h5>
+                <a href="tel:+918449117348" class="text-muted text-decoration-none hover-primary">+91 8449117348</a>
+              </div>
+            </div>
+
+            <div class="social-links mt-5">
+              <a href="https://github.com/AnkitGola-7078" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/ankitgola1304/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://leetcode.com/u/ankitgola_cs23/" target="_blank" class="social-icon"><i class="fa-solid fa-code"></i></a>
+              <a href="mailto:ankitprajapati3785@gmail.com" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="contact-form-card glass-card p-5 h-100">
+            <h3 class="mb-4">Send a Message</h3>
+            <form id="contactForm" onsubmit="event.preventDefault();">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control glass-input" id="name" placeholder="Name" required>
+                    <label for="name">Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control glass-input" id="email" placeholder="Email" required>
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control glass-input" placeholder="Message" id="message" style="height: 150px" required></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary premium-btn w-100 py-3">Send Message <i class="fa-solid fa-paper-plane ms-2"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-5 glass-section text-center">
+    <div class="container">
+      <h4 class="mb-4">Ankit Gola</h4>
+      <div class="social-links mt-3 mb-4 justify-content-center">
+        <a href="https://github.com/AnkitGola-7078" target="_blank" class="social-icon"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ankitgola1304/" target="_blank" class="social-icon"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://leetcode.com/u/ankitgola_cs23/" target="_blank" class="social-icon"><i
+            class="fa-solid fa-code"></i></a>
+        <a href="mailto:ankitprajapati3785@gmail.com" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p class="mb-1 text-muted">&copy; 2026 Ankit Gola. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="modal fade" id="certModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-transparent border-0">
+        <div class="modal-body text-center position-relative p-0">
+          <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img src="" id="certModalImg" class="img-fluid rounded shadow-lg" alt="Certificate Preview" style="max-height: 90vh;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- tsParticles -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2.12.0/tsparticles.engine.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-basic@2.12.0/tsparticles.basic.min.js"></script>
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Floating Hire Me Button -->
+  <a href="mailto:ankitprajapati3785@gmail.com" class="floating-hire-btn">
+    <i class="fa-solid fa-envelope me-2"></i> Hire Me
+  </a>
+
+  <!-- Custom JS -->
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
