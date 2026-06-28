@@ -18,7 +18,7 @@ Hi, I'm **Ankit Prajapati**, a B.Tech Computer Science Engineering student with 
 * ☕ Java & Spring Boot Enthusiast
 * ⚛️ React.js Developer
 * 🗄️ MongoDB & MySQL
-* 📚 Solved 250+ DSA problems on LeetCode
+* 📚 Solved 300+ DSA problems on LeetCode
 * 🎯 Preparing for Product-Based Companies
 
 ---
