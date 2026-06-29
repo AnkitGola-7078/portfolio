@@ -126,18 +126,23 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Certificate Lightbox Functionality
-const BASE_URL = import.meta.env.BASE_URL || '/';
-window.openCertificate = function(url, isPdf) {
-  // Ensure the path is correctly appended to the base URL
-  const cleanUrl = url.replace(/^\.?\//, '');
-  const fullUrl = BASE_URL + cleanUrl;
+const BASE_URL = "/";
+window.openCertificate = function (url, isPdf) {
 
-  if (isPdf) {
-      window.open(fullUrl, '_blank');
-  } else {
-      document.getElementById('certModalImg').src = fullUrl;
-      // Use bootstrap modal
-      const certModal = new bootstrap.Modal(document.getElementById('certModal'));
-      certModal.show();
-  }
+    const fullUrl = url.startsWith("/")
+        ? url
+        : "/" + url.replace(/^\.?\//, "");
+
+    if (isPdf) {
+        window.open(fullUrl, "_blank");
+        return;
+    }
+
+    document.getElementById("certModalImg").src = fullUrl;
+
+    const certModal = new bootstrap.Modal(
+        document.getElementById("certModal")
+    );
+
+    certModal.show();
 };
