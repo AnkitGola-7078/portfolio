@@ -6,7 +6,7 @@ Welcome to my personal portfolio repository! This portfolio showcases my project
 
 > Add your deployed portfolio link here
 
-**Portfolio:** `https://your-portfolio-link.com`
+**Portfolio:** `https://portfolio7078.vercel.app/`
 
 ---
 
