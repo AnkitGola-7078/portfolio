@@ -152,7 +152,7 @@ A responsive portfolio showcasing projects, skills, resume, and certifications.
 
 # 📬 Contact
 
-**Name:** Ankit Prajapati
+**Name:** Ankit Gola
 
 * 📧 Email: ankitprajapati3785@gmail.com
 * 💼 LinkedIn: https://linkedin.com/in/ankitgola1304
